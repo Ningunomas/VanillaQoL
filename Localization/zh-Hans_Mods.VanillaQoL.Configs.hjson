@@ -576,10 +576,10 @@ QoLConfig: {
 	}
 
 	veinMineSpikes: {
-		Label: "[i:1150] VeinMining 尖刺扩展"
+		Label: "[i:1150] 连锁采矿尖刺扩展"
 		Tooltip:
 			'''
-			如果启用，著名的VeinMining技术也能完美应对你世界中那些令人烦恼的尖刺。
+			如果启用，连锁采矿也会连锁尖刺。
 			今天就试试，如果你不喜欢，就可以退款！
 			'''
 	}
