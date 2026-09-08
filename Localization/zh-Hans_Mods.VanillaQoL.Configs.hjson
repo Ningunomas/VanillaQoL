@@ -330,13 +330,13 @@ QoLConfig: {
 	}
 
 	respawnFactorExpertMode: {
-		Label: "[i:3223] 专家模式因素"
-		Tooltip: 控制专家模式重生时间乘数。
+		Label: "[i:3223] 专家模式重生时间倍率"
+		Tooltip: 控制专家模式重生时间倍率。
 	}
 
 	respawnFactorMasterMode: {
-		Label: "[i:4924] 大师模式因素"
-		Tooltip: 控制大师模式重生时间乘数。
+		Label: "[i:4924] 大师模式重生时间倍率"
+		Tooltip: 控制大师模式重生时间倍率。
 	}
 
 	bossRespawnTime: {
@@ -350,7 +350,7 @@ QoLConfig: {
 	}
 
 	bossMultiplayerMultiplier: {
-		Label: "[i:1969] 每位玩家的时间乘数"
+		Label: "[i:1969] 每位玩家的时间倍率"
 		Tooltip: 将重生时间乘以这个值，再乘以服务器上其他玩家的数量。
 	}
 
@@ -476,22 +476,22 @@ QoLConfig: {
 	}
 
 	veinMining: {
-		Label: "[i:385] VeinMining™"
+		Label: "[i:385] 连锁采矿"
 		Tooltip: 如果启用，开采一块矿石会同时开采相邻的矿石。
 	}
 
 	veinMiningSpeed: {
-		Label: "[i:3509] VeinMining™ 速度"
+		Label: "[i:3509] 连锁采矿速度"
 		Tooltip: 控制物块破碎之间的延迟。数值越低，脉矿开采速度越快。
 	}
 
 	extendedOres: {
-		Label: "[i:424] 扩展矿石™ 科技"
-		Tooltip: 如果启用，我们的商标和专利技术将为VeinMine™添加新的、令人兴奋且富有影响力的矿石！
+		Label: "[i:424] 扩展矿石科技"
+		Tooltip: 如果启用，我们的商标和专利技术将为连锁采矿添加新的、令人兴奋且富有影响力的矿石！
 	}
 
 	wingSlot: {
-		Label: "[i:1162] 翅膀栏™"
+		Label: "[i:1162] 翅膀栏"
 		Tooltip: 如果启用，玩家将获得一个翅膀栏。只有翅膀可以放入这个槽中。
 	}
 
@@ -516,13 +516,13 @@ QoLConfig: {
 	}
 
 	noFullHeartPickup: {
-		Label: "[i:58] 在生命满时不要消耗心"
-		Tooltip: 如果启用且玩家生命值已满，他们就不会拾取心。同样，如果玩家魔力值已满，他们就不会拾取星星。
+		Label: "[i:58] 在生命满时不拾取红心"
+		Tooltip: 如果启用且玩家生命值已满，不会拾取红心。同样，如果玩家魔力值已满，不会拾取星星。
 	}
 
 	heartTime: {
-		Label: "[i:58] 心消失时间"
-		Tooltip: 控制心和星星在消失前在世界中存在的时间，单位为秒。默认值是300，即5分钟。
+		Label: "[i:58] 红心消失时间"
+		Tooltip: 控制红心和星星在消失前在世界中存在的时间，单位为秒。默认值是300，即5分钟。
 	}
 
 	calamityInWorldRarity: {
@@ -546,7 +546,7 @@ QoLConfig: {
 	}
 
 	stopSantaFromExploding: {
-		Label: "[i:588] 阻止圣诞老人爆炸"
+		Label: "[i:588] 阻止圣诞老人离开"
 		Tooltip: 如果启用，圣诞老人在圣诞节结束后就不会突然消失了。
 	}
 
@@ -576,10 +576,10 @@ QoLConfig: {
 	}
 
 	veinMineSpikes: {
-		Label: "[i:1150] VeinMining™ 尖刺扩展"
+		Label: "[i:1150] 连锁采矿尖刺扩展"
 		Tooltip:
 			'''
-			如果启用，著名的VeinMining™技术也能完美应对你世界中那些令人烦恼的尖刺。
+			如果启用，连锁采矿也会连锁尖刺。
 			今天就试试，如果你不喜欢，就可以退款！
 			'''
 	}
@@ -853,8 +853,9 @@ QoLConfig: {
 		Label: "[i:389] 纠正语法"
 		Tooltip:
 			'''
-			如果启用，物品前缀将以语法正确的方式显示在以"The"开头的物品中（例如，"The Unreal Undertaker"而不是"Unreal The Undertaker"）。
-			只影响英语，因为为什么会影响其他东西呢？
+			如果启用，物品前缀将以语法正确的方式显示在以"The"开头的物品中
+			（例如，"The Unreal Undertaker"而不是"Unreal The Undertaker"）。
+			仅影响英语
 			'''
 	}
 
@@ -903,10 +904,10 @@ QoLConfig: {
 	}
 
 	fixStarlightRiver: {
-		Label: "[i:75] 修复星辉河陨石生成"
+		Label: "[i:75] 修复星光之河河陨石生成"
 		Tooltip:
 			'''
-			启用后，修复星星光之河模组中“陨石祷文”物品失效的问题。默认情况下该物品完全无效，因为星光之河开发者写代码像AI乱生成的一样。
+			启用后，修复星光之河模组中“陨石祷文”物品失效的问题。默认情况下该物品完全无效，因为星光之河开发者写代码像AI乱生成的一样。
 			此项补丁会修正 WorldGen.dropMeteor 以正确检查生成条件。
 			'''
 	}
@@ -997,7 +998,7 @@ UIConfig: {
 	}
 
 	showPriceMultiplier: {
-		Label: "[i:855] 显示价格乘数"
+		Label: "[i:855] 显示价格倍率"
 		Tooltip: 如果启用，系统会显示每个NPC对你的好感值。红色表示他们恨你，绿色表示他们只是不喜欢你。
 	}
 
@@ -1974,7 +1975,7 @@ CalamityQoLConfig: {
 	}
 
 	shimmerRecipes: {
-		Label: "[i:5364] 额外微光转化"
+		Label: "[i:5364] 额外微光液体转化"
 		Tooltip: 启用后，三种信息配饰可以互相转化，附魔剑和泰拉魔刃同理。
 	}
 }
