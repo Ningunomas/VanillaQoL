@@ -767,8 +767,8 @@ QoLConfig: {
 	}
 
 	infoAccWorkInVanity: {
-		// Label: "[i:18] Info Accessories work in vanity slots"
-		// Tooltip: If enabled, Info Accessories function in the player's vanity equipment slots.
+		Label: "[i:18] Los accesorios de información funcionan en espacios de diseño"
+		Tooltip: Si está habilitada, los accesorios de información funcionan en los espacios de equipamiento de diseño del jugador.
 	}
 
 	fountainBiomes: {
